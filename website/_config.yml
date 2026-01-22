@@ -2,7 +2,7 @@ title: PagesPlayground
 description: "A GitHub Pages site."
 url: ""
 baseurl: ""
-markdown: kramdown
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 exclude:
