@@ -42,13 +42,13 @@ jobs:
         uses: ./gen-upstream-dashboard-action
         with:
           output-dir: website
-          module-name: Toric.Mathlib
+          project-name: Toric.Mathlib
 
       - name: Run private action (legacy)
         uses: ./gen-upstream-dashboard-action
         with:
           output-dir: website/old
-          module-name: Toric
+          project-name: Toric
           use-legacy: true
       
       - name: Setup Pages
