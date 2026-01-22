@@ -46,11 +46,22 @@ jobs:
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+          working-directory: website
+      
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build --source . --destination ../_site
+        working-directory: website
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: website
+          path: _site
+      
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
