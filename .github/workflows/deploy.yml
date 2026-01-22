@@ -43,6 +43,7 @@ jobs:
         uses: ./gen-upstream-dashboard-action
         with:
           output-dir: website
+          module-name: Toric
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
