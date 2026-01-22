@@ -1,7 +1,9 @@
 title: PagesPlayground
-description: "A GitHub Pages site."
-url: ""
-baseurl: ""
+description: Simple page
+baseurl: "/PagesPlayground"
+url: "https://marcelolynch.github.io"
+github_username: marcelolynch
+repository: marcelolynch/PagesPlayground
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
