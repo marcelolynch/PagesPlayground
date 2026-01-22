@@ -44,6 +44,14 @@ jobs:
         with:
           output-dir: website
           module-name: Toric
+
+      # Action to generate extra files
+      - name: Run private action (legacy)
+        uses: ./gen-upstream-dashboard-action
+        with:
+          output-dir: website/old
+          module-name: Toric
+          use-legacy: true
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
