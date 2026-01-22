@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate upstream dashboard snippets
-        uses: marcelolynch/gen-upstream-dashboard-action@v1.0.0
+        uses: marcelolynch/gen-upstream-dashboard-action@main
         with:
           output-dir: website
           project-name: Toric
