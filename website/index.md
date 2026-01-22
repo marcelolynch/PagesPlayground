@@ -11,12 +11,7 @@ title: Dashboard
 
 The following files are `sorry`-free and do not depend on any other file, meaning they can be readily PRed to Mathlib.
 
-### Using new queueboard:
 {% include_relative ready_to_upstream.md %}
-
-### Using old queueboard
-{% include_relative old/ready_to_upstream.md %}
-
 
 ## Files easy to unlock
 
