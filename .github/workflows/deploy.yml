@@ -42,7 +42,7 @@ jobs:
         uses: ./gen-upstream-dashboard-action
         with:
           output-dir: website
-          project-name: Toric.Mathlib
+          project-name: Toric
 
       - name: Run private action (legacy)
         uses: ./gen-upstream-dashboard-action
