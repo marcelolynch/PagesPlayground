@@ -22,8 +22,4 @@ The following files are `sorry`-free and do not depend on any other file, meanin
 
 The following files do not depend on any other file but still contain `sorry`, usually indicating that working on eliminating those sorries might unblock some part of the project.
 
-### Using new queueboard
-{% include_relative easy_to_unlock.md %}
-
-### Using old queueboard:
 {% include_relative easy_to_unlock.md %}
