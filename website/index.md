@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Dashboard
-permalink: /dashboard/
 ---
 
-# Dashboard
+# Upstreaming dashboard
 
-This is the dashboard page.
 
 ## Files ready to upstream
 
