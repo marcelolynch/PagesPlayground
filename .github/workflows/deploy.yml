@@ -36,6 +36,7 @@ jobs:
         with:
           output-dir: website
           project-name: Toric
+          relevant-labels: toric
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
