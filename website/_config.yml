@@ -4,7 +4,7 @@ baseurl: "/PagesPlayground"
 url: "https://marcelolynch.github.io"
 github_username: marcelolynch
 repository: marcelolynch/PagesPlayground
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 exclude:
