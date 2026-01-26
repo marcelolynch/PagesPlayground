@@ -3,4 +3,4 @@ layout: default
 title: Dashboard
 ---
 
-{% include dashboard.md %}
+{% include _upstreaming_dashboard/dashboard.md %}
