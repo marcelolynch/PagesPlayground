@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate upstream dashboard snippets
-        uses: marcelolynch/gen-upstream-dashboard-action@main
+        uses: leanprover-community/upstreaming-dashboard-action@main
         with:
           website-directory: website
           project-name: Toric
