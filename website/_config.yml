@@ -1,14 +1,4 @@
-title: Github Pages Playground
-description: "simple experiments"
-baseurl: "/PagesPlayground"
-url: "https://marcelolynch.github.io"
-github_username: marcelolynch
-repository: marcelolynch/PagesPlayground
-theme: jekyll-theme-slate
-plugins:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - node_modules
+title: Project
+description: Upstreaming dashboard for Project
+theme: minima
+markdown: kramdown
